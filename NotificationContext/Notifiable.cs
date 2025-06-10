@@ -4,7 +4,7 @@ public abstract class Notifiable
 {
     public List<Notification> Notifications { get; set; }
 
-    public void Add(Notification notification)
+    public void AddNotification(Notification notification)
     {
         Notifications.Add(notification);
     }
